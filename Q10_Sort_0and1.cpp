@@ -6,13 +6,13 @@ int main(){
     int s = 0;
     int e = arr.size()-1;
     int i = 0;
-    while ( s<=e)
+    while ( i<=e)
     {   
         if(arr[i]==1){
             swap(arr[i],arr[e]);
             e--;
-            i++;
-        }
+            
+        } 
         if(arr[i]==0){
             swap(arr[i],arr[s]);
             i++;
